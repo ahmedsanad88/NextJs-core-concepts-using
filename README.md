@@ -1,34 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJs simple implementation and explain for core concepts:
 
-## Getting Started
+> Simple structure to learn more about nextJs and core functionalities like routing, pre-rendering and data-fetching.
 
-First, run the development server:
+# Table of contents🗂
 
-```bash
-npm run dev
-# or
-yarn dev
+- [NextJs simple implementation and explain for core concepts:](#nextjs-simple-implementation-and-explain-for-core-concepts)
+- [Table of contents🗂](#table-of-contents)
+- [what kind of information will be found here? 📑](#what-kind-of-information-will-be-found-here-)
+- [Installation⚙️](#installation️)
+- [Running the App 🚀](#running-the-app-)
+- [Contribute🤝](#contribute)
+- [License🧾](#license)
+- [Footer💐](#footer)
+- [Author❤️](#author️)
+
+# what kind of information will be found here? 📑
+
+- How to use the pre-rendering in nextJs in both situations:
+  - Static Side Generation (SSG).
+    - Example ==> posts
+  - Server Side Rendering (SSR).
+    - Example ==> news
+- How to deal with Client side data fetching?
+  - Normal way by using useEffect.
+    - Example ==> dashboard.
+  - The recommended way using SWR hook.
+    - Example ==> dashboard-swr.
+- How to create page routing.
+  - users route.
+- How to create nested pages routing.
+  - posts routes.
+- How to create a dynamic route in NextJs.
+  - Using ==> [anyname].js
+- Using json-server library to serve data locally and simulate the server.
+
+[(Back to top)](#table-of-contents)
+
+# Installation⚙️
+
+```js
+
+// Run in the terminal to install all dependencies for the project.
+npm install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[(Back to top)](#table-of-contents)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Running the App 🚀
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```shell
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+// running the main app
+> npm run dev
 
-## Learn More
+// Running the server
+> npm run json-server
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[(Back to top)](#table-of-contents)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Contribute🤝
 
-## Deploy on Vercel
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Please make sure to update tests as appropriate.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[(Back to top)](#table-of-contents)
+
+# License🧾
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+[(Back to top)](#table-of-contents)
+
+# Footer💐
+
+Leave a star on GitHub, give a clap on Medium and share this guide if you found this helpful.
+
+[(Back to top)](#table-of-contents)
+
+# Author❤️
+
+**_Ahmed Sanad_**
+
+[(Back to top)](#table-of-contents)
